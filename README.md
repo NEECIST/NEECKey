@@ -1,5 +1,8 @@
 # NEECKey
-## Ligar ao raspberry (caso esteja ligado à internet)
+## Ligar o raspberry
+Ao ligar esperar por volta de 1 minuto antes de colocar as chaves para o programa começar a correr e ter tempo de calibrar
+
+## Aceder ao raspberry (caso esteja ligado à internet)
 ssh pi@raspberrypi.local  
 password default: raspberry
 
