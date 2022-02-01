@@ -1,6 +1,6 @@
 # NEECKey
 ## Ligar o raspberry
-Ao ligar esperar por volta de 1 minuto antes de colocar as chaves para o programa começar a correr e ter tempo de calibrar
+Ao ligar esperar por volta de 45 segundos antes de colocar as chaves para o programa começar a correr e ter tempo de calibrar
 
 ## Aceder ao raspberry (caso esteja ligado à internet)
 ssh pi@raspberrypi.local  
