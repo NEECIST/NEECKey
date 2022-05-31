@@ -30,7 +30,7 @@ Subject: Sede Status - Closed
 
 A sede esta fechada!"""
 
-time.sleep(10)
+time.sleep(1)
 
 if not EMULATE_HX711:
 	import RPi.GPIO as GPIO
@@ -121,6 +121,8 @@ while True:
 			hx.power_down()
 			hx.power_up()
 			time.sleep(0.1)
+		
+		time.sleep(10)
 
 	except (KeyboardInterrupt, SystemExit):
 		cleanAndExit()
